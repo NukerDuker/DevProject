@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js">
+        </script>
         <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
         <title>English tenses</title>
     </head>
     <body>
+        <script>
+            
+        </script>
         <header>
             <h1>Helpful information about all tenses in english</h1>
-            <nav>
+            <nav class="nav">
                 <ul>
-                    <li><a href="#table">Tenses Table</a></li>
-                    <li><a href="#Present Perfect">Present Perfect</a></li>
-                    <li><a href="#Present Perfect Continious">Present Perfect Continious</a></li>
-                    <li><a href="#Past Perfect">Past Perfect</a></li>
-                    <li><a href="#Past Perfect Continios">Past Perfect Continios</a></li>
+                    <li><a href="#table"><button class="mdc-button foo-button" onclick="mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">Tenses Table</span></a></li>
+                    <li><a href="#PresentPerfect"><button class="mdc-button foo-button" onclick="mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">Present Perfect</span></a></li>
+                    <li><a href="#PresentPerfectContinious"><button class="mdc-button foo-button" onclick="mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">Present Perfect Continious</span></a></li>
+                    <li><a href="#PastPerfect"><button class="mdc-button foo-button" onclick="mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">Past Perfect</span></a></li>
+                    <li><a href="#PastPerfectContinios"><button class="mdc-button foo-button" onclick="mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">Past Perfect Continios</span></a></li>
                 </ul>
             </nav>
         </header>
@@ -66,18 +83,18 @@
 
             </section>
 
-            <section id="Present Perfect">
-                <p>В каких случаях используется Present Perfect:</p>
+            <section id="PresentPerfect">
+                <h4>В каких случаях используется Present Perfect:</h4>
                 <ul>
                     <li>Незаконченный отрезок времени: <br><b>Today, this morning, this week</b></li>
                     <li>Личный опыт: <br><i>I haven't been to Spain</i></li>
-                    <li>Прямая речь: <i>Hey, dude! I've bought a car </i></li>
+                    <li>Прямая речь: <br><i>Hey, dude! I've bought a car </i></li>
                 </ul>
             </section>
 
-            <section id="Present Perfect Continious">
-                <p>Present Perfect Continious следует использовать в тех случаях, когда действие отвечает на вопрос <i>Что делаю?</i>
-                <br>Действие при этом началось ранее и все еще продолжается.
+            <section id="PresentPerfectContinious">
+                <h4>Present Perfect Continious следует использовать в тех случаях, когда действие отвечает на вопрос <i>Что делаю?</i></h4>
+                <p>Действие при этом началось ранее и все еще продолжается.
                 <br>Example:</p>
                 <article>
                     <p>I've been doing homework for 3 hours</p>
@@ -86,8 +103,8 @@
 
             </section >
 
-            <section id="Past Continious">
-                <p>Past Continious используется в случаях, когда:</p>
+            <section id="PastContinious">
+                <h4>Past Continious используется в случаях, когда:</h4>
                 <ul>
                     <li>Мы знаем точное время, в которое происходит действие</li>
                     <li>Одно действие прерывается вторым</li>
@@ -97,19 +114,19 @@
                     <p>When my wife came, I was watching TV</p>
                 </article>
             </section>
-            <section id="Past Perfect">
-                <p>Past Perfect используется в случаях, когда действие происходило в прошлом, и был получен результат.
-                <br>Example:</p>
+            <section id="PastPerfect">
+                <h4>Past Perfect используется в случаях, когда действие происходило в прошлом, и был получен результат.
+                <br>Example:</h4>
                 <article>
                     <p>Yesterday by 6 P.M i had finished my work</p>
                 </article>
                 
             </section>
 
-            <section id="Past Perfect Continios">
-                <p>Past Perfect Continious используется чтобы показать, что действие происходило в предпрошедшем времени.
+            <section id="PastPerfectContinios">
+                <h4>Past Perfect Continious используется чтобы показать, что действие происходило в предпрошедшем времени.
                     <br>Example:
-                </p>
+                </h4>
                 <article>
                     <p>I have been wrighting my essay for the whole evening, when my cat screemed
                     <br>I have been working for you all evening.
